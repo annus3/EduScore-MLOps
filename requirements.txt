@@ -2,5 +2,8 @@ pandas
 numpy
 scikit-learn
 seaborn
+matplotlib
 mlflow
+catboost
+xgboost
 -e .
