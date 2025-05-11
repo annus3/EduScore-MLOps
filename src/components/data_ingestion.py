@@ -8,8 +8,11 @@ from dataclasses import dataclass
 
 from src.logger import logging
 from src.exception import CustomException
+
 from src.components.data_transformation import DataTransformation
 from src.components.data_transformation import DataTransformationConfig
+from src.components.model_trainer import ModelTrainer
+from src.components.model_trainer import ModelTrainerConfig
 
 @dataclass
 class DataIngestionConfig:
@@ -52,14 +55,23 @@ class DataIngestion:
             raise CustomException(e, sys) from e
         
 if __name__ == "__main__":
-    # This block is used to test the DataIngestion class when the script is run directly.
-    # It will create an instance of the DataIngestion class and call the initiate_data_ingestion method.
+    
+    '''
+    This is the main function that initiates the data ingestion, transformation, and model training process.
+    It creates an instance of the DataIngestion class, calls the initiate_data_ingestion method,
+    and prints the paths of the train and test data.
+    '''
+    
     obj = DataIngestion()
     train_data, test_data =  obj.initiate_data_ingestion()
     print("Data Ingestion completed successfully.")
     
     
     data_transformation = DataTransformation()
-    data_transformation.initiate_data_transformation(train_data, test_data)
+    train_arr,test_arr,_ = data_transformation.initiate_data_transformation(train_data, test_data)
     print("Data Transformation completed successfully.")
+    
+    modeltrainer=ModelTrainer()
+    print(modeltrainer.initiate_model_trainer(train_arr,test_arr))
+    print("Model Training completed successfully.")
     

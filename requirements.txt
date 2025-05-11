@@ -6,4 +6,5 @@ matplotlib
 mlflow
 catboost
 xgboost
+dill
 -e .
