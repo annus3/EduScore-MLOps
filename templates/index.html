@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Student Exam Predictor</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body class="bg-light d-flex flex-column min-vh-100">
+  <div class="container text-center my-auto">
+    <i class="fa-solid fa-graduation-cap fa-4x text-primary mb-4"></i>
+    <h1 class="display-4">Welcome to Student Exam Predictor</h1>
+    <p class="lead">Predict your exam performance in seconds.</p>
+    <a href="{{ url_for('predict_datapoint') }}" class="btn btn-primary btn-lg mt-3">
+      <i class="fa-solid fa-rocket me-2"></i>Get Started
+    </a>
+  </div>
+  <footer class="mt-auto text-center py-3 bg-white">
+    <small>&copy; 2025 Mohammad Annus. All rights reserved.</small>
+  </footer>
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
