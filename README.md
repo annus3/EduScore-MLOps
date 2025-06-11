@@ -3,7 +3,6 @@
 
 [![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](#)
 [![License](https://img.shields.io/github/license/<your-github-handle>/EduScore-MLOps.svg)](#)
-[![Made with ❤️ & MLOps](https://img.shields.io/badge/built%20with-mlops-pipeline-tooling-orange)](#)
 
 Predicting a student’s performance is a classic regression task.
 The goal of **EduScore-MLOps** is to show how that seemingly simple model can be wrapped in a *production‑ready* machine‑learning system:
@@ -17,19 +16,19 @@ The goal of **EduScore-MLOps** is to show how that seemingly simple model can be
 ---
 
 ## Table of Contents
-1. [Quick start](#quick-start)
-2. [Project structure](#project-structure)
+1. [Quick Start](#quick-start)
+2. [Project Structure](#project-structure)
 3. [Scripts: File Descriptions](#scripts-file-descriptions)
 4. [Deeper dive into the key code files](#deeper-dive-into-the-key-code-files)
-5. [Notebook highlights](#notebook-highlights)
-6. [End-to-end workflow](#end-to-end-workflow)
-7. [Tech stack](#tech-stack)
-8. [Detailed pipeline walkthrough](#detailed-pipeline-walkthrough)
-9. [Logging & exception handling](#logging--exception-handling)
-10. [Running the web app](#running-the-web-app)
+5. [Notebook Highlights](#notebook-highlights)
+6. [End-to-End Workflow](#end-to-end-workflow)
+7. [Tech Stack](#tech-stack)
+8. [Detailed Pipeline Walkthrough](#detailed-pipeline-walkthrough)
+9. [Logging & Exception Handling](#logging--exception-handling)
+10. [Running the Web App](#running-the-web-app)
 11. [Roadmap](#roadmap)
 12. [Contributing](#contributing)
-13. [License & acknowledgements](#license--acknowledgements)
+13. [License & Acknowledgements](#license--acknowledgements)
 
 
 ---
