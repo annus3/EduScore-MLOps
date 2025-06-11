@@ -1,10 +1,24 @@
-pandas
-numpy
-scikit-learn
-seaborn
-matplotlib
-mlflow
-catboost
-xgboost
-dill
+# Core data stack
+pandas==1.5.3
+numpy==1.24.4
+
+# Machine-learning & model selection
+scikit-learn==1.4.0
+xgboost==2.0.3
+catboost==1.2.4
+joblib==1.4.2         # sklearn’s parallel backend helper
+
+# Visualisation (used inside the notebooks)
+matplotlib==3.9.0
+seaborn==0.13.2
+
+# Web API
+flask==3.0.2
+
+# Serialization / utilities
+dill==0.3.8           # safer pickling for custom objects
+
+# Optional quality-of-life tools
+tqdm==4.66.4          # progress bars in notebooks / scripts
+
 -e .
