@@ -1,8 +1,13 @@
 # EduScore-MLOps 
 > An end-to-end MLOps pipeline that ingests raw student records and serves real-time **math-score** predictions through a lightweight Flask API.
 
-[![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](#)
+[![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/github/license/annus3/EduScore-MLOps.svg)](https://github.com/annus3/EduScore-MLOps/blob/main/LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/annus3/EduScore-MLOps.svg)](https://github.com/annus3/EduScore-MLOps/commits/main)
+[![Repo Size](https://img.shields.io/github/repo-size/annus3/EduScore-MLOps)](https://github.com/annus3/EduScore-MLOps)
+[![Stars](https://img.shields.io/github/stars/annus3/EduScore-MLOps)](https://github.com/annus3/EduScore-MLOps/stargazers)
+[![Forks](https://img.shields.io/github/forks/annus3/EduScore-MLOps)](https://github.com/annus3/EduScore-MLOps/network/members)
+
 
 
 Predicting a student’s performance is a classic regression task.
@@ -230,16 +235,19 @@ Stateless, so it can be reused from Flask, batch jobs, or notebooks.
 
 ---
 
+
+
 ## End-to-End Workflow
 
 ```mermaid
 graph LR
-    A[Raw CSV (stud.csv)] --> B[data_ingestion.py]
+    A[Raw CSV: stud.csv] --> B[data_ingestion.py]
     B --> C[data_validation.py]
     C --> D[data_transformation.py]
     D --> E[model_trainer.py]
-    E --> F[model.pkl + metrics.json]
-    F --> G[Flask API /predictdata]
+    E --> F[model.pkl and metrics.json]
+    F --> G[Flask API: /predictdata]
+
 ```
 
 1. **Ingestion** – bring data in and split.  
