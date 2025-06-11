@@ -2,7 +2,8 @@
 > An end-to-end MLOps pipeline that ingests raw student records and serves real-time **math-score** predictions through a lightweight Flask API.
 
 [![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](#)
-[![License](https://img.shields.io/github/license/<your-github-handle>/EduScore-MLOps.svg)](#)
+[![License](https://img.shields.io/github/license/annus3/EduScore-MLOps.svg)](https://github.com/annus3/EduScore-MLOps/blob/main/LICENSE)
+
 
 Predicting a student’s performance is a classic regression task.
 The goal of **EduScore-MLOps** is to show how that seemingly simple model can be wrapped in a *production‑ready* machine‑learning system:
