@@ -346,6 +346,6 @@ Click **Predict Student Performance**, fill in the form, and hit **Predict** –
 ## License & Acknowledgements
 
 This project uses the **MIT License**
-See the See the [LICENSE](https://github.com/annus3/EduScore-MLOps/blob/main/LICENSE) file for full text.
+See the [LICENSE](https://github.com/annus3/EduScore-MLOps/blob/main/LICENSE) file for full text.
 
 Big thanks to the authors of *“Complete MLOps Bootcamp with 10 End‑to‑End ML Projects”* on Udemy for the foundation that inspired this work.
