@@ -5,7 +5,8 @@
 [![License](https://img.shields.io/github/license/annus3/EduScore-MLOps.svg)](https://github.com/annus3/EduScore-MLOps/blob/main/LICENSE)
 [![Last Commit](https://img.shields.io/github/last-commit/annus3/EduScore-MLOps.svg)](https://github.com/annus3/EduScore-MLOps/commits/main)
 [![Repo Size](https://img.shields.io/github/repo-size/annus3/EduScore-MLOps)](https://github.com/annus3/EduScore-MLOps)
-
+[![Stars](https://img.shields.io/github/stars/annus3/EduScore-MLOps)](https://github.com/annus3/EduScore-MLOps/stargazers)
+[![Forks](https://img.shields.io/github/forks/annus3/EduScore-MLOps)](https://github.com/annus3/EduScore-MLOps/network/members)
 
 
 Predicting a student’s performance is a classic regression task.
